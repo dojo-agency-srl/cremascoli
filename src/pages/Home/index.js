@@ -6,6 +6,8 @@ import Services from "components/Services";
 import Works from "components/Works";
 import ChooseUs from "components/ChooseUs";
 import Offer from "components/Offer";
+import Facts from "components/Facts";
+import Footer from "components/Footer";
 
 const Home = () => {
 	return (
@@ -23,6 +25,8 @@ const Home = () => {
 								<Works />
 								<ChooseUs />
 								<Offer />
+								<Facts />
+								<Footer />
 							</div>
 						</div>
 					</div>

@@ -2076,6 +2076,7 @@ p.dropcap span.first-letter {
 	width: 100%;
 	z-index: 999999;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	background-color: rgba(0, 0, 0, .9) !important;
 }
 
 #site-header.is-sticky:after {
@@ -4316,6 +4317,10 @@ body.page #main-content {
 #works-section,
 #chooseus-section {
 	padding: 60px 0;
+}
+
+#facts-section {
+	padding: 120px 0;
 }
 
 #chooseus-section h2 {

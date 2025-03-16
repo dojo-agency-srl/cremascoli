@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import bgImg from "images/works_bg.png";
-import { progetti } from "site-structure.js";
+import { offerta, serviziPage } from "site-structure.js";
 
 const Offer = () => {
 	const swiperRef = useRef(null);
@@ -15,16 +15,11 @@ const Offer = () => {
 	const nextRef = useRef(null);
 
 	return (
-		<section
-			id="works-section"
-			className="wprt-section works parallax"
-			style={{
-				backgroundImage: `url(${bgImg})`,
-			}}>
+		<section id="works-section" className="wprt-section offer">
 			<div className="container">
 				<div className="row">
 					<div className="col-md-6 title">
-						<h2 className="text-left text-white">LA NOSTRA OFFERTA (SEI QUI)</h2>
+						<h2>LA NOSTRA OFFERTA</h2>
 						<div className="wprt-lines custom-2">
 							<div className="line-1"></div>
 						</div>
@@ -72,22 +67,23 @@ const Offer = () => {
 										slidesPerView: 3,
 									},
 								}}>
-								{progetti.map((progetto) => (
-									<SwiperSlide key={progetto.nome}>
-										<div className="project-item">
-											<figure>
-												<img src={progetto.copertina} alt="image" />
-												<figcaption>
-													<div>
-														<h2>
-															<Link target="_blank" to={progetto.route}>
-																{progetto.nome}
-															</Link>
-														</h2>
-														<p>{progetto.descrizioneBreve}</p>
-													</div>
-												</figcaption>
-											</figure>
+								{offerta.map((servizio) => (
+									<SwiperSlide key={servizio.key}>
+										<div class="cbp-item">
+											<div class="service-item clearfix">
+												<div class="thumb">
+													<img src={servizio.copertina} alt="image" />
+												</div>
+												<div class="service-item-wrap">
+													<h3 class="title font-size-18 pb-0" style={{ paddingBottom: 0 }}>
+														<Link to={serviziPage.route}>{servizio.titolo}</Link>
+													</h3>
+													<p class="desc">{servizio.testo}</p>
+													<Link to={serviziPage.route} class="wprt-button small rounded-3px">
+														SCOPRI DI PIU'
+													</Link>
+												</div>
+											</div>
 										</div>
 									</SwiperSlide>
 								))}

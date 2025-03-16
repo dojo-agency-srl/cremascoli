@@ -10,6 +10,11 @@ import imgGallery2 from "images/gallery/about2.jpg";
 import imgGallery3 from "images/gallery/about3.jpg";
 import imgGallery4 from "images/gallery/about4.jpg";
 
+import imgService1 from "images/services/service1.png";
+import imgService2 from "images/services/service2.png";
+import imgService3 from "images/services/service3.png";
+import imgService4 from "images/services/service4.png";
+
 const homePage = {
 	pageTitle: "Home",
 	route: "/home",
@@ -165,9 +170,54 @@ const gallery = [
 	},
 ];
 
+const offerta = [
+	{
+		key: "offerta-1",
+		titolo: "Ristrutturazioni",
+		testo:
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.",
+		copertina: imgService1,
+	},
+	{
+		key: "offerta-2",
+		titolo: "Design & Costruzione",
+		testo:
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.",
+		copertina: imgService2,
+	},
+	{
+		key: "offerta-3",
+		titolo: "Architettura del verde",
+		testo:
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.",
+		copertina: imgService3,
+	},
+	{
+		key: "offerta-4",
+		titolo: "Ristrutturazioni",
+		testo:
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.",
+		copertina: imgService4,
+	},
+];
+
+const facts = [
+	{
+		key: "fact-1",
+		titolo: "PROGETTI COMPLETATI",
+		numero: "200",
+	},
+	{
+		key: "fact-2",
+		titolo: "CLIENTI SODDISFATTI",
+		numero: "180",
+	},
+];
+
 const contatti = {
 	phone: "+39 0377 81300",
 	mail: "info@impresacremascoli.it",
+	indirizzo: "Via Felice Cavallotti 211, 26841 Casalpusterlengo (LO)",
 	hours: "Lun - Ven: 8:00 - 18:00",
 	instagram: "https://www.instagram.com",
 	facebook: "https://www.facebook.com",
@@ -183,5 +233,7 @@ export {
 	progetti,
 	faqs,
 	gallery,
+	offerta,
+	facts,
 	contatti,
 };
