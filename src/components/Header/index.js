@@ -4,7 +4,7 @@ import { useLocation, Link } from "react-router-dom";
 import logo from "images/logo_white.png";
 
 import { routes } from "routes.js";
-import { progetti, contatti } from "site-structure.js";
+import { homePage, progetti, contatti } from "site-structure.js";
 
 let location;
 
@@ -91,7 +91,9 @@ const Header = () => {
 
 			<header
 				id="site-header"
-				className={`header-front-page style-5 ${isFixed ? "is-sticky" : ""}`}>
+				className={`header-front-page ${
+					location.pathname === homePage.route ? "style-5" : "style-1"
+				} ${isFixed ? "is-sticky" : ""}`}>
 				<div id="site-header-inner" className="container">
 					<div className="wrap-inner">
 						<div id="site-logo" className="clearfix">

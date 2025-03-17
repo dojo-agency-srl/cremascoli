@@ -1343,6 +1343,8 @@ p.dropcap span.first-letter {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #hero-section .hero-content {
@@ -4315,11 +4317,13 @@ body.page #main-content {
 /* CUSTOM */
 #services-section,
 #works-section,
-#chooseus-section {
+#chooseus-section,
+#team-section {
 	padding: 60px 0;
 }
 
-#facts-section {
+#facts-section,
+#promotion2-section {
 	padding: 120px 0;
 }
 
@@ -4329,7 +4333,8 @@ body.page #main-content {
 
 #services-section .title,
 #works-section .title,
-#chooseus-section .title {
+#chooseus-section .title,
+#team-section .title {
 	padding-bottom: 40px;
 }
 
