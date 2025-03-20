@@ -300,8 +300,6 @@ blockquote .small {
 	display: inline-block;
 }
 
-blockquote cite {}
-
 blockquote em,
 blockquote i {
 	font-style: normal;
