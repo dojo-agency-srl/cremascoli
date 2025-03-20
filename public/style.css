@@ -4318,13 +4318,20 @@ body.page #main-content {
 #services-section,
 #works-section,
 #chooseus-section,
-#team-section {
-	padding: 60px 0;
+#team-section,
+#portfolio-section,
+#contact-section,
+#projectdetail-section {
+	padding: 80px 0;
 }
 
 #facts-section,
 #promotion2-section {
 	padding: 120px 0;
+}
+
+#portfolio-section .wprt-subtitle {
+	margin: 40px auto;
 }
 
 #chooseus-section h2 {
@@ -4339,9 +4346,12 @@ body.page #main-content {
 }
 
 #services-section .col-md-4:not(:last-child) {
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 
+#portfolio-section .project-item {
+	margin-bottom: 30px;
+}
 
 #works-section .swiper-controls {
 	display: flex;
@@ -4358,4 +4368,13 @@ body.page #main-content {
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
+}
+
+#services-full-section {
+	padding: 40px 0 0 0;
+}
+
+.cbp-filter-item.active {
+	color: #fff !important;
+	background-color: #A23841;
 }

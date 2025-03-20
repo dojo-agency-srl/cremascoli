@@ -1,3 +1,9 @@
-# https://www.robotstxt.org/robotstxt.html
+# *
 User-agent: *
-Disallow:
+Allow: /
+
+# Host
+Host: https://www.impresaumbertocremascoli.it
+
+# Sitemaps
+Sitemap: https://www.impresaumbertocremascoli.it/sitemap.xml

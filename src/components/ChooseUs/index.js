@@ -1,10 +1,10 @@
 import React, { useState } from "react";
+import GallerySlideshow from "components/GallerySlideshow";
 
 import { faqs, gallery } from "site-structure.js";
 
 const ChooseUs = () => {
 	const [activeIndex, setActiveIndex] = useState(0);
-	const [selectedImage, setSelectedImage] = useState(gallery[0]);
 
 	return (
 		<section id="chooseus-section" className="wprt-section">
@@ -43,21 +43,7 @@ const ChooseUs = () => {
 							<div className="line-2"></div>
 						</div>
 
-						<div className="wprt-galleries galleries w-570px">
-							<div id="wprt-slider">
-								<img src={selectedImage.image} alt={selectedImage.alt} />
-							</div>
-
-							<div id="wprt-carousel">
-								<ul className="slides">
-									{gallery.map((image) => (
-										<li onClick={() => setSelectedImage(image)} style={{ cursor: "pointer" }}>
-											<img src={image.image} alt={image.alt} />
-										</li>
-									))}
-								</ul>
-							</div>
-						</div>
+						<GallerySlideshow gallery={gallery} />
 					</div>
 
 					<div className="col-md-12">

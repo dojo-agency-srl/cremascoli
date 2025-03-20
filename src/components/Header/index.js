@@ -38,7 +38,7 @@ const Header = () => {
 							} ${route.route === "/portfolio" ? "menu-item-has-children" : ""}`}
 							key={route.key}>
 							<Link to={route.route} key={route.key + "-link"}>
-								{route.pageTitle}
+								{route.pageName}
 							</Link>
 							{route.route === "/portfolio" && (
 								<ul className="sub-menu">
@@ -93,7 +93,7 @@ const Header = () => {
 				id="site-header"
 				className={`header-front-page ${
 					location.pathname === homePage.route ? "style-5" : "style-1"
-				} ${isFixed ? "is-sticky" : ""}`}>
+				} ${isFixed ? "is-sticky style-5" : ""}`}>
 				<div id="site-header-inner" className="container">
 					<div className="wrap-inner">
 						<div id="site-logo" className="clearfix">

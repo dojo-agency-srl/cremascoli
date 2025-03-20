@@ -139,6 +139,7 @@
 -------------------------------------------------------------- */
 .wprt-icon-box {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .wprt-icon-box .icon-wrap {
@@ -2387,15 +2388,19 @@
 /* Contact Form 7 */
 .wprt-contact-form-1 .wpcf7-form-control-wrap.name,
 .wprt-contact-form-1 .wpcf7-form-control-wrap.email,
-.wprt-contact-form-1 .wpcf7-form-control-wrap.phone,
-.wprt-contact-form-1 .wpcf7-form-control-wrap.subject {
+.wprt-contact-form-1 .wpcf7-form-control-wrap.phone {
     width: 48.702%;
     float: left;
     margin-bottom: 20px;
 }
 
-.wprt-contact-form-1 .wpcf7-form-control-wrap.name,
-.wprt-contact-form-1 .wpcf7-form-control-wrap.phone {
+.wprt-contact-form-1 .wpcf7-form-control-wrap.subject {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.wprt-contact-form-1 .wpcf7-form-control-wrap.name {
     margin-right: 2.598%;
 }
 
@@ -2405,7 +2410,7 @@
 }
 
 .wprt-contact-form-1 .wrap-submit {
-    text-align: center;
+    text-align: left;
 }
 
 .wprt-contact-form-1 .wpcf7-form-control.wpcf7-submit {

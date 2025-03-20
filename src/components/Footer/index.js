@@ -13,7 +13,7 @@ const Footer = () => {
 				return (
 					<>
 						<li className="style-2">
-							<Link to={route.route}>{route.pageTitle}</Link>
+							<Link to={route.route}>{route.pageName}</Link>
 						</li>
 					</>
 				);

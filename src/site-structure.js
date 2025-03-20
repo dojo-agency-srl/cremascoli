@@ -9,6 +9,10 @@ import imgGallery1 from "images/gallery/about1.jpg";
 import imgGallery2 from "images/gallery/about2.jpg";
 import imgGallery3 from "images/gallery/about3.jpg";
 import imgGallery4 from "images/gallery/about4.jpg";
+import imgGallery5 from "images/gallery/about1.jpg";
+import imgGallery6 from "images/gallery/about2.jpg";
+import imgGallery7 from "images/gallery/about3.jpg";
+import imgGallery8 from "images/gallery/about4.jpg";
 
 import imgService1 from "images/services/service1.png";
 import imgService2 from "images/services/service2.png";
@@ -16,27 +20,54 @@ import imgService3 from "images/services/service3.png";
 import imgService4 from "images/services/service4.png";
 
 const homePage = {
-	pageTitle: "Home",
+	pageName: "Home",
+	pageTitle:
+		"Impresa Umberto Cremascoli | Costruzioni e Ristrutturazioni a Casalpusterlengo, Lodi e Milano",
+	pageDescription:
+		"Impresa Umberto Cremascoli: costruzioni, ristrutturazioni e interventi edili a Casalpusterlengo, Lodi e Milano. Affidabilità e qualità per il tuo progetto edilizio.",
 	route: "/home",
 };
 
 const chisiamoPage = {
-	pageTitle: "Chi Siamo",
+	pageName: "Chi Siamo",
+	pageTitle:
+		"Impresa Umberto Cremascoli | Esperienza e Qualità nell’Edilizia a Lodi e Milano",
+	pageDescription:
+		"Scopri la storia e i valori di Impresa Umberto Cremascoli. Da anni operiamo nel settore edile a Lodi e Milano con professionalità ed esperienza.",
 	route: "/chi-siamo",
 };
 
 const serviziPage = {
-	pageTitle: "Servizi",
+	pageName: "Servizi",
+	pageTitle:
+		"Servizi Edili a Casalpusterlengo, Lodi e Milano | Costruzioni e Ristrutturazioni",
+	pageDescription:
+		"Offriamo costruzioni, ristrutturazioni e manutenzioni edili a Casalpusterlengo, Lodi e Milano. Scopri i servizi di Impresa Umberto Cremascoli.",
 	route: "/servizi",
 };
 
 const portfolioPage = {
-	pageTitle: "Portfolio",
+	pageName: "Portfolio",
+	pageTitle: "Progetti Edili | Le Realizzazioni di Impresa Umberto Cremascoli",
+	pageDescription:
+		"Guarda i nostri progetti edili realizzati a Casalpusterlengo, Lodi e Milano. Costruzioni e ristrutturazioni su misura per ogni esigenza.",
 	route: "/portfolio",
 };
 
+const progettoPage = {
+	pageName: "Progetto",
+	pageTitle: "Progetti Edili | Le Realizzazioni di Impresa Umberto Cremascoli",
+	pageDescription:
+		"Guarda i nostri progetti edili realizzati a Casalpusterlengo, Lodi e Milano. Costruzioni e ristrutturazioni su misura per ogni esigenza.",
+	route: "/progetto/:routeName",
+};
+
 const contattiPage = {
-	pageTitle: "Contatti",
+	pageName: "Contatti",
+	pageTitle:
+		"Contatta Impresa Umberto Cremascoli | Edilizia a Casalpusterlengo, Lodi e Milano",
+	pageDescription:
+		"Hai bisogno di un'impresa edile? Contatta Impresa Umberto Cremascoli per un preventivo o maggiori informazioni sui nostri servizi.",
 	route: "/contatti",
 };
 
@@ -82,45 +113,285 @@ const servizi = [
 const progetti = [
 	{
 		key: "progetto-1",
-		nome: "Test 1",
+		nome: "Progetto 1",
 		descrizioneBreve: "Descrizione Test 1",
-		route: "/test1",
+		descrizione:
+			"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
+		route: "/progetto/test1",
 		copertina: imgWork1,
+		cliente: "Cliente 1",
+		architetto: "Architetto 1",
+		budget: "€ 320.000",
+		filter: "old",
+		gallery: [
+			{
+				image: imgGallery1,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery2,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery3,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery4,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery5,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery6,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery7,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery1,
+				alt: "Descrizione immagine",
+			},
+		],
 	},
 	{
 		key: "progetto-2",
-		nome: "Test 2",
+		nome: "Progetto 2",
 		descrizioneBreve: "Descrizione Test 2",
-		route: "/test2",
+		descrizione:
+			"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
+		route: "/progetto/test2",
 		copertina: imgWork2,
+		cliente: "Cliente 2",
+		architetto: "Architetto 2",
+		budget: "€ 320.000",
+		filter: "old",
+		gallery: [
+			{
+				image: imgGallery1,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery2,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery3,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery4,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery5,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery6,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery7,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery1,
+				alt: "Descrizione immagine",
+			},
+		],
 	},
 	{
 		key: "progetto-3",
-		nome: "Test 3",
+		nome: "Progetto 3",
 		descrizioneBreve: "Descrizione Test 3",
-		route: "/test3",
+		descrizione:
+			"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
+		route: "/progetto/test3",
 		copertina: imgWork3,
+		cliente: "Cliente 3",
+		architetto: "Architetto 3",
+		budget: "€ 320.000",
+		filter: "old",
+		gallery: [
+			{
+				image: imgGallery1,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery2,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery3,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery4,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery5,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery6,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery7,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery1,
+				alt: "Descrizione immagine",
+			},
+		],
 	},
 	{
 		key: "progetto-4",
-		nome: "Test 4",
+		nome: "Progetto 4",
 		descrizioneBreve: "Descrizione Test 4",
-		route: "/test4",
+		descrizione:
+			"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
+		route: "/progetto/test4",
 		copertina: imgWork4,
+		cliente: "Cliente 4",
+		architetto: "Architetto 4",
+		budget: "€ 320.000",
+		filter: "old",
+		gallery: [
+			{
+				image: imgGallery1,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery2,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery3,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery4,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery5,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery6,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery7,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery1,
+				alt: "Descrizione immagine",
+			},
+		],
 	},
 	{
 		key: "progetto-5",
-		nome: "Test 5",
+		nome: "Progetto 5",
 		descrizioneBreve: "Descrizione Test 5",
-		route: "/test5",
+		descrizione:
+			"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
+		route: "/progetto/test5",
 		copertina: imgWork5,
+		cliente: "Cliente 5",
+		architetto: "Architetto 5",
+		budget: "€ 320.000",
+		filter: "current",
+		gallery: [
+			{
+				image: imgGallery1,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery2,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery3,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery4,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery5,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery6,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery7,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery1,
+				alt: "Descrizione immagine",
+			},
+		],
 	},
 	{
 		key: "progetto-6",
-		nome: "Test 6",
+		nome: "Progetto 6",
 		descrizioneBreve: "Descrizione Test 6",
-		route: "/test6",
+		descrizione:
+			"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
+		route: "/progetto/test6",
 		copertina: imgWork6,
+		cliente: "Cliente 6",
+		architetto: "Architetto 6",
+		budget: "€ 320.000",
+		filter: "current",
+		gallery: [
+			{
+				image: imgGallery1,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery2,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery3,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery4,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery5,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery6,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery7,
+				alt: "Descrizione immagine",
+			},
+			{
+				image: imgGallery1,
+				alt: "Descrizione immagine",
+			},
+		],
 	},
 ];
 
@@ -167,6 +438,22 @@ const gallery = [
 	{
 		image: imgGallery4,
 		alt: "Immagine 4",
+	},
+	{
+		image: imgGallery5,
+		alt: "Immagine 5",
+	},
+	{
+		image: imgGallery6,
+		alt: "Immagine 6",
+	},
+	{
+		image: imgGallery7,
+		alt: "Immagine 7",
+	},
+	{
+		image: imgGallery8,
+		alt: "Immagine 8",
 	},
 ];
 
@@ -228,6 +515,7 @@ export {
 	chisiamoPage,
 	serviziPage,
 	portfolioPage,
+	progettoPage,
 	contattiPage,
 	servizi,
 	progetti,

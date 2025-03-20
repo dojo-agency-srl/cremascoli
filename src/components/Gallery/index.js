@@ -1,10 +1,9 @@
 import React, { useState, useRef, useEffect } from "react";
+import GallerySlideshow from "components/GallerySlideshow";
 
 import { gallery, facts } from "site-structure.js";
 
 const Gallery = () => {
-	const [selectedImage, setSelectedImage] = useState(gallery[0]);
-
 	const boxRef = useRef(null);
 	const countersRef = useRef([]);
 
@@ -92,21 +91,7 @@ const Gallery = () => {
 					</div>
 
 					<div className="col-md-6">
-						<div className="wprt-galleries galleries w-570px">
-							<div id="wprt-slider">
-								<img src={selectedImage.image} alt={selectedImage.alt} />
-							</div>
-
-							<div id="wprt-carousel">
-								<ul className="slides">
-									{gallery.map((image) => (
-										<li onClick={() => setSelectedImage(image)} style={{ cursor: "pointer" }}>
-											<img src={image.image} alt={image.alt} />
-										</li>
-									))}
-								</ul>
-							</div>
-						</div>
+						<GallerySlideshow gallery={gallery} />
 					</div>
 				</div>
 			</div>
