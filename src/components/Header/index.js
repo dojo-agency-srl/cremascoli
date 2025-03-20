@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLocation, Link } from "react-router-dom";
 
 import logo from "images/logo_white.png";
+import logo_black from "images/logo_black.png";
 
 import { routes } from "routes.js";
 import { homePage, progetti, contatti } from "site-structure.js";
@@ -99,7 +100,12 @@ const Header = () => {
 						<div id="site-logo" className="clearfix">
 							<div id="site-logo-inner">
 								<Link to="/" title="Construction" rel="home" className="main-logo">
-									<img src={logo} alt="Impresa Umberto Cremascoli" width="200" height="30" />
+									<img
+										src={location.pathname === "/home" ? logo : logo_black}
+										alt="Impresa Umberto Cremascoli"
+										width="200"
+										height="30"
+									/>
 								</Link>
 							</div>
 						</div>

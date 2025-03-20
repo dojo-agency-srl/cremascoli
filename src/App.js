@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Routes, Route, useLocation, Navigate } from "react-router-dom";
+
 import Layout from "components/Layout";
+
 import { routes } from "routes.js";
 
 const App = () => {
@@ -25,8 +27,10 @@ const App = () => {
 	const currentRoute =
 		routes.find((route) => route.route === location.pathname) || {};
 
-	const { pageTitle = "Default Title", pageDescription = "Default Description" } =
-		currentRoute;
+	const {
+		pageTitle = "Progetti Edili | Le Realizzazioni di Impresa Umberto Cremascoli",
+		pageDescription = "Guarda i nostri progetti edili realizzati a Casalpusterlengo, Lodi e Milano. Costruzioni e ristrutturazioni su misura per ogni esigenza.",
+	} = currentRoute;
 
 	const getRoutes = (routes) =>
 		routes.map((route) => {
@@ -48,6 +52,7 @@ const App = () => {
 					path="/"
 					element={<Layout title={pageTitle} description={pageDescription} />}>
 					<Route path="/" element={<Navigate to="/home" />} />
+
 					{getRoutes(routes)}
 				</Route>
 			</Routes>
