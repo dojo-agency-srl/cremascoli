@@ -101,7 +101,7 @@ const Header = () => {
 							<div id="site-logo-inner">
 								<Link to="/" title="Construction" rel="home" className="main-logo">
 									<img
-										src={location.pathname === "/home" ? logo : logo_black}
+										src={location.pathname === "/home" ? logo : isFixed ? logo : logo_black}
 										alt="Impresa Umberto Cremascoli"
 										width="200"
 										height="30"
