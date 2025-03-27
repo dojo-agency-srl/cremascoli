@@ -132,7 +132,7 @@ const Contact = ({ title }) => {
 								</span>
 								<span
 									class="wpcf7-form-control-wrap message"
-									style={{ display: "block", marginBottom: 20 }}>
+									style={{ display: "flex", marginBottom: 20, gap: 16, lineHeight: "16px" }}>
 									<input
 										type="checkbox"
 										id="acceptance-checkbox"
@@ -141,8 +141,8 @@ const Contact = ({ title }) => {
 									/>
 									<label htmlFor="acceptance-checkbox" className="acceptance-label">
 										<div>
-											&nbsp;Letta la <Link to="">Privacy Policy</Link>, presto il mio consenso ad
-											essere ricontattato
+											Letta la <Link to="">Privacy Policy</Link>, presto il mio consenso ad essere
+											ricontattato
 										</div>
 									</label>
 								</span>

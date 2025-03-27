@@ -12,6 +12,8 @@ let location;
 const Header = () => {
 	const [isFixed, setIsFixed] = useState(false);
 	const [elementY, setElementY] = useState(null);
+	const [menuOpen, setMenuOpen] = useState(false);
+	const [openSubMenu, setOpenSubMenu] = useState(null);
 
 	useEffect(() => {
 		const handleScroll = () => {
@@ -28,33 +30,77 @@ const Header = () => {
 
 	location = useLocation();
 
+	const toggleMenu = () => {
+		setMenuOpen(!menuOpen);
+	};
+
+	const toggleSubMenu = (key) => {
+		setOpenSubMenu(openSubMenu === key ? null : key);
+	};
+
+	const handleLinkClick = () => {
+		setMenuOpen(false);
+	};
+
 	const renderRoutes = () =>
 		routes.map((route) => {
 			if (route.visible) {
 				return (
-					<>
-						<li
-							className={`menu-item ${
-								location.pathname === route.route ? "current-menu-item" : ""
-							} ${route.route === "/portfolio" ? "menu-item-has-children" : ""}`}
-							key={route.key}>
-							<Link to={route.route} key={route.key + "-link"}>
-								{route.pageName}
-							</Link>
-							{route.route === "/portfolio" && (
-								<ul className="sub-menu">
+					<li
+						className={`menu-item ${
+							location.pathname === route.route ? "current-menu-item" : ""
+						} ${route.route === "/portfolio" ? "menu-item-has-children" : ""}`}
+						key={route.key}>
+						<Link to={route.route} key={route.key + "-link"}>
+							{route.pageName}
+						</Link>
+						{route.route === "/portfolio" && (
+							<ul className="sub-menu">
+								{progetti.map((progetto) => (
+									<li key={progetto.key} className="menu-item">
+										<Link to={progetto.route}>{progetto.nome}</Link>
+									</li>
+								))}
+							</ul>
+						)}
+					</li>
+				);
+			}
+			return null;
+		});
+
+	const renderMobileRoutes = () =>
+		routes.map((route) => {
+			if (route.visible) {
+				const isActive = openSubMenu === route.key;
+				return (
+					<li
+						className={`menu-item ${
+							location.pathname === route.route ? "current-menu-item" : ""
+						} ${route.route === "/portfolio" ? "menu-item-has-children" : ""}`}
+						key={route.key}>
+						<Link to={route.route} key={route.key + "-link"} onClick={handleLinkClick}>
+							{route.pageName}
+						</Link>
+						{route.route === "/portfolio" && (
+							<>
+								<span
+									className={`arrow ${isActive ? "active" : ""}`}
+									onClick={() => toggleSubMenu(route.key)}></span>
+								<ul className="sub-menu" style={{ display: isActive ? "block" : "none" }}>
 									{progetti.map((progetto) => (
 										<li key={progetto.key} className="menu-item">
-											<Link to={progetto.route}>{progetto.nome}</Link>
+											<Link to={progetto.route} onClick={handleLinkClick}>
+												{progetto.nome}
+											</Link>
 										</li>
 									))}
 								</ul>
-							)}
-						</li>
-					</>
+							</>
+						)}
+					</li>
 				);
 			}
-
 			return null;
 		});
 
@@ -75,7 +121,6 @@ const Header = () => {
 								</span>
 							</div>
 						</div>
-
 						<div className="top-bar-content">
 							<span id="top-bar-text">
 								<i className="fa fa-phone-square"></i>
@@ -99,7 +144,12 @@ const Header = () => {
 					<div className="wrap-inner">
 						<div id="site-logo" className="clearfix">
 							<div id="site-logo-inner">
-								<Link to="/" title="Construction" rel="home" className="main-logo">
+								<Link
+									to="/"
+									title="Construction"
+									rel="home"
+									className="main-logo"
+									onClick={handleLinkClick}>
 									<img
 										src={location.pathname === "/home" ? logo : isFixed ? logo : logo_black}
 										alt="Impresa Umberto Cremascoli"
@@ -110,12 +160,21 @@ const Header = () => {
 							</div>
 						</div>
 
-						<div className="mobile-button">
+						<div
+							className={`mobile-button ${menuOpen ? "active" : ""}`}
+							onClick={toggleMenu}>
 							<span></span>
 						</div>
 
 						<nav id="main-nav" className="main-nav">
 							<ul className="menu">{renderRoutes()}</ul>
+						</nav>
+
+						<nav
+							id="main-nav-mobi"
+							className="main-nav"
+							style={{ display: menuOpen ? "block" : "none" }}>
+							<ul className="menu">{renderMobileRoutes()}</ul>
 						</nav>
 					</div>
 				</div>

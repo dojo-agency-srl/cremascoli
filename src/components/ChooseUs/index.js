@@ -6,6 +6,10 @@ import { faqs, gallery } from "site-structure.js";
 const ChooseUs = () => {
 	const [activeIndex, setActiveIndex] = useState(0);
 
+	const handleToggle = (index) => {
+		setActiveIndex(activeIndex === index ? null : index);
+	};
+
 	return (
 		<section id="chooseus-section" className="wprt-section">
 			<div className="container">
@@ -21,14 +25,15 @@ const ChooseUs = () => {
 							<div
 								key={index}
 								className={`wprt-toggle style-1 ${activeIndex === index ? "active" : ""}`}
-								onClick={() => setActiveIndex(index)}>
+								onClick={() => handleToggle(index)}>
 								<h3 className="toggle-title">{faq.titolo}</h3>
 								<div
 									className="toggle-content"
 									style={{
-										opacity: activeIndex === index ? "1" : "0",
-										display: activeIndex === index ? "block" : "none",
-										transition: "opacity .32s ease-in-out",
+										opacity: activeIndex === index ? "1" : "",
+										display: activeIndex === index ? "block" : "",
+										height: activeIndex === index ? "auto" : "",
+										transition: "opacity .32s ease-in-out, height .32s ease-in-out",
 									}}>
 									{faq.testo}
 								</div>
@@ -36,7 +41,7 @@ const ChooseUs = () => {
 						))}
 					</div>
 
-					<div className="col-md-6">
+					<div className="col-md-6 second">
 						<h2>GUARDACI IN AZIONE</h2>
 						<div className="wprt-lines style-1 custom-3 title">
 							<div className="line-1"></div>

@@ -1,9 +1,7 @@
 import React, { useEffect } from "react";
 
-import Header from "components/Header";
 import Breadcrumb from "components/Breadcrumb";
 import Contact from "components/Contact";
-import Footer from "components/Footer";
 
 const Contatti = () => {
 	useEffect(() => {

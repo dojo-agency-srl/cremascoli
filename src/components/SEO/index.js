@@ -8,13 +8,15 @@ const SEO = ({ title, description }) => {
 		if (metaDescription) {
 			metaDescription.setAttribute("content", description);
 		}
-	}, [title, description]);
+	}, []);
 
 	return (
-		<Helmet>
-			<title>{title}</title>
-			<meta name="description" content={description} />
-		</Helmet>
+		<>
+			<Helmet>
+				<title>{title}</title>
+				<meta name="description" content={description} />
+			</Helmet>
+		</>
 	);
 };
 
