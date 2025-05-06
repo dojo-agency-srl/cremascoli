@@ -74,38 +74,39 @@ const contattiPage = {
 const servizi = [
 	{
 		key: "servizio-1",
-		nome: "Servizio 1",
-		descrizione: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		nome: "Chiavi in Mano",
+		descrizione: "Gestione completa dal progetto alla realizzazione finale",
 		icon: "icon-drawing",
 	},
 	{
 		key: "servizio-2",
-		nome: "Servizio 2",
-		descrizione: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		nome: "Ristrutturazioni Edili",
+		descrizione: "Efficientamento energetico e restyling totale dell'immobile",
 		icon: "icon-drawing",
 	},
 	{
 		key: "servizio-3",
-		nome: "Servizio 3",
-		descrizione: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		nome: "Sviluppo Immobiliare Diretto",
+		descrizione: "Realizziamo immobili moderni partendo da aree edificabili",
 		icon: "icon-drawing",
 	},
 	{
 		key: "servizio-4",
-		nome: "Servizio 4",
-		descrizione: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		nome: "Gestione Permessi e Pratiche",
+		descrizione: "Seguiamo ogni iter burocratico e autorizzativo",
 		icon: "icon-drawing",
 	},
 	{
 		key: "servizio-5",
-		nome: "Servizio 5",
-		descrizione: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		nome: "Consulenza Tecnica Integrata",
+		descrizione: "Supporto completo con tecnici e imprese qualificate",
 		icon: "icon-drawing",
 	},
 	{
 		key: "servizio-6",
-		nome: "Servizio 6",
-		descrizione: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		nome: "Innovazione e Sostenibilità",
+		descrizione:
+			"Soluzioni costruttive moderne, efficienti e tecnologicamente avanzate",
 		icon: "icon-drawing",
 	},
 ];
@@ -398,27 +399,27 @@ const progetti = [
 const faqs = [
 	{
 		key: "faq-1",
-		titolo: "Più di 30 anni di esperienza nelle costruzioni",
+		titolo: "Oltre 50 anni di esperienza: perché conta davvero?",
 		testo:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.",
+			"Da più di 50 anni, Costruiamo o ristrutturiamo immobili civili o industriali, sempre con lo stesso impegno.",
 	},
 	{
 		key: "faq-2",
-		titolo: "Lorem ipsum dolor sit amet, consectetur adipiscing",
+		titolo: "Come facciamo a rispettare sempre tempi e qualità?",
 		testo:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.",
+			"Nel corso degli anni siamo riusciti a costruire un network di tecnici e imprese che ci permettono di garantire: tempi di realizzazione certi, immutata qualità costruttiva e costante innovazione tecnologica.",
 	},
 	{
 		key: "faq-3",
-		titolo: "Lorem ipsum dolor sit amet, consectetur adipiscing",
+		titolo: "Cosa ci rende sempre un passo avanti?",
 		testo:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.",
+			"Formazioni e informazione: tutto il nostro staff è costantemente aggiornato e formato, per essere sempre pronto a confrontarsi con le nuove tecnologie costruttive e le nuove tecniche di efficienza energetica.",
 	},
 	{
 		key: "faq-4",
-		titolo: "Lorem ipsum dolor sit amet, consectetur adipiscing",
+		titolo: "Perché dovrei affidarmi a voi per un progetto complesso?",
 		testo:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.",
+			"Perché uniamo esperienza, organizzazione e innovazione per offrire un servizio completo e affidabile in ogni fase.",
 	},
 ];
 
@@ -460,32 +461,32 @@ const gallery = [
 const offerta = [
 	{
 		key: "offerta-1",
-		titolo: "Ristrutturazioni",
+		titolo: "Nuove Costruzioni",
 		testo:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.",
+			"Operando da general contractor siamo in grado di gestire tutto il flusso di lavoro. Dalle fase preliminare di progettazione e ottenimento dei permessi, a quella della costruzione dell'opera. Siamo capaci di accompagnare il cliente passo passo in tutte le scelte necessarie ad ottenere un immobile su misura e personalizzato.",
 		copertina: imgService1,
 	},
 	{
 		key: "offerta-2",
-		titolo: "Design & Costruzione",
+		titolo: "Ristrutturazioni",
 		testo:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.",
+			"Che si tratti di puro efficinetamento energetico o di ristrutturazione completa dell'immobile anche in questo caso riusciamo a seguire in prima persona tutte le fasi di lavorazione fino alla consegna dell'immobile finito.",
 		copertina: imgService2,
 	},
 	{
 		key: "offerta-3",
-		titolo: "Architettura del verde",
+		titolo: "Iniziative Immobiliari",
 		testo:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.",
+			"Core business dell'impresa fin dalla sua nascita é lo sviluppo di proprie iniziative immobiliari. Dalla scelta della migliore area edificabile alla consegna dell'immobile finito. Impresa Cremascoli segue l’intero processo direttamente per garantire elevati standard di qualità con immobili moderni ed efficienti.",
 		copertina: imgService3,
 	},
-	{
-		key: "offerta-4",
-		titolo: "Ristrutturazioni",
-		testo:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.",
-		copertina: imgService4,
-	},
+	// {
+	// 	key: "offerta-4",
+	// 	titolo: "Ristrutturazioni",
+	// 	testo:
+	// 		"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.",
+	// 	copertina: imgService4,
+	// },
 ];
 
 const facts = [
