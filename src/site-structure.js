@@ -9,10 +9,8 @@ import imgGallery1 from "images/gallery/about1.jpg";
 import imgGallery2 from "images/gallery/about2.jpg";
 import imgGallery3 from "images/gallery/about3.jpg";
 import imgGallery4 from "images/gallery/about4.jpg";
-import imgGallery5 from "images/gallery/about1.jpg";
-import imgGallery6 from "images/gallery/about2.jpg";
-import imgGallery7 from "images/gallery/about3.jpg";
-import imgGallery8 from "images/gallery/about4.jpg";
+import imgGallery5 from "images/gallery/about5.jpg";
+import imgGallery6 from "images/gallery/about6.jpg";
 
 import imgService1 from "images/services/service1.png";
 import imgService2 from "images/services/service2.png";
@@ -150,10 +148,6 @@ const progetti = [
 				alt: "Descrizione immagine",
 			},
 			{
-				image: imgGallery7,
-				alt: "Descrizione immagine",
-			},
-			{
 				image: imgGallery1,
 				alt: "Descrizione immagine",
 			},
@@ -194,10 +188,6 @@ const progetti = [
 			},
 			{
 				image: imgGallery6,
-				alt: "Descrizione immagine",
-			},
-			{
-				image: imgGallery7,
 				alt: "Descrizione immagine",
 			},
 			{
@@ -243,10 +233,7 @@ const progetti = [
 				image: imgGallery6,
 				alt: "Descrizione immagine",
 			},
-			{
-				image: imgGallery7,
-				alt: "Descrizione immagine",
-			},
+
 			{
 				image: imgGallery1,
 				alt: "Descrizione immagine",
@@ -288,10 +275,6 @@ const progetti = [
 			},
 			{
 				image: imgGallery6,
-				alt: "Descrizione immagine",
-			},
-			{
-				image: imgGallery7,
 				alt: "Descrizione immagine",
 			},
 			{
@@ -338,10 +321,6 @@ const progetti = [
 				alt: "Descrizione immagine",
 			},
 			{
-				image: imgGallery7,
-				alt: "Descrizione immagine",
-			},
-			{
 				image: imgGallery1,
 				alt: "Descrizione immagine",
 			},
@@ -382,10 +361,6 @@ const progetti = [
 			},
 			{
 				image: imgGallery6,
-				alt: "Descrizione immagine",
-			},
-			{
-				image: imgGallery7,
 				alt: "Descrizione immagine",
 			},
 			{
@@ -447,14 +422,6 @@ const gallery = [
 	{
 		image: imgGallery6,
 		alt: "Immagine 6",
-	},
-	{
-		image: imgGallery7,
-		alt: "Immagine 7",
-	},
-	{
-		image: imgGallery8,
-		alt: "Immagine 8",
 	},
 ];
 

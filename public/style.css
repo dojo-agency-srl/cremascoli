@@ -2076,7 +2076,7 @@ p.dropcap span.first-letter {
 	width: 100%;
 	z-index: 999999;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-	background-color: rgba(0, 0, 0, .9) !important;
+	background-color: #fff !important;
 }
 
 #site-header.is-sticky:after {

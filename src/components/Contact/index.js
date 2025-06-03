@@ -45,12 +45,14 @@ const Contact = ({ title }) => {
 						<div class="wprt-information">
 							<h4 class="margin-bottom-15">CHIAMACI</h4>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus
-								pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend
-								ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem
-								at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed
-								eu vestibulum elit. Curabitur tortor mi, eleifend ornare. Lorem ipsum dolor sit
-								amet, consectetur adipiscing elit.
+								Hai bisogno di informazioni, un preventivo su misura o vuoi semplicemente
+								parlare con noi? Siamo qui per aiutarti.
+								<br />
+								<br />
+								Che si tratti di un piccolo intervento o di un progetto complesso, l’impresa
+								Umberto Cremascoli è al tuo fianco con professionalità, esperienza e attenzione
+								al dettaglio. Parliamone insieme: ogni buon lavoro inizia da una buona
+								conversazione.
 							</p>
 							<ul class="style-2">
 								<li class="address">

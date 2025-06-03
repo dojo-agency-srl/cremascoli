@@ -138,8 +138,8 @@ const Header = () => {
 			<header
 				id="site-header"
 				className={`header-front-page ${
-					location.pathname === homePage.route ? "style-5" : "style-1"
-				} ${isFixed ? "is-sticky style-5" : ""}`}>
+					location.pathname === homePage.route ? "style-1" : "style-1"
+				} ${isFixed ? "is-sticky style-1" : ""}`}>
 				<div id="site-header-inner" className="container">
 					<div className="wrap-inner">
 						<div id="site-logo" className="clearfix">
@@ -151,7 +151,9 @@ const Header = () => {
 									className="main-logo"
 									onClick={handleLinkClick}>
 									<img
-										src={location.pathname === "/home" ? logo : isFixed ? logo : logo_black}
+										src={
+											location.pathname === "/home" ? logo_black : isFixed ? logo_black : logo_black
+										}
 										alt="Impresa Umberto Cremascoli"
 										width="200"
 										height="30"

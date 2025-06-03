@@ -11,7 +11,7 @@ const Promotion = ({ testo, cta }) => {
 					<div className="col-md-8">
 						<div className="wprt-spacer"></div>
 						<h2 className="text-white text-center-mobile font-size-20 margin-bottom-0">
-							{testo || "General contractor e costruttori dal 1970"}
+							{testo || "Costruttori e General contractor dal 1970"}
 						</h2>
 						<div className="wprt-spacer"></div>
 					</div>

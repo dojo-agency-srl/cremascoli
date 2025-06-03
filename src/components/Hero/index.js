@@ -14,7 +14,7 @@ export default function HeroSection() {
 	useEffect(() => {
 		const interval = setInterval(() => {
 			setCurrentIndex((prevIndex) => (prevIndex + 1) % titles.length);
-		}, 2500);
+		}, 1000);
 
 		return () => clearInterval(interval);
 	}, []);

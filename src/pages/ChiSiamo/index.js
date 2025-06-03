@@ -6,15 +6,15 @@ import Promotion2 from "components/Promotion2";
 import Team from "components/Team";
 
 const ChiSiamo = () => {
-	useEffect(() => {
-		document.body.classList.remove("header-style-5");
-		document.body.classList.add("header-style-1");
+	// useEffect(() => {
+	// 	document.body.classList.remove("header-style-5");
+	// 	document.body.classList.add("header-style-1");
 
-		return () => {
-			document.body.classList.remove("header-style-1");
-			document.body.classList.add("header-style-5");
-		};
-	}, []);
+	// 	return () => {
+	// 		document.body.classList.remove("header-style-1");
+	// 		document.body.classList.add("header-style-5");
+	// 	};
+	// }, []);
 
 	return (
 		<>

@@ -61,17 +61,14 @@ const Gallery = () => {
 						</div>
 
 						<p className="margin-bottom-25">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat.
-							Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat,
-							portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae
-							interdum nisl vehicula. Pellentesque habitant morbi tristique senectus et netus
-							et malesuada fames ac turpis egestas. Etiam suscipit, elit quis facilisis
-							dictum, diam justo volutpat dui. Cras id justo eget sapien scelerisque lacinia
-							non a eros. In a volutpat magna. Vivamus pretium urna at condimentum porta.
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat.
-							Vestibulum eu libero volutpat, portas quam acc, tempus sem. Cras id justo eget
-							sapien scelerisque lacinia non a eros. Lorem ipsum dolor sit amet, consectetur
-							adipiscing elit. Quisque nec erat erat.
+							<b>Costruire con impegno</b> è il motto che ha guidato l’IMPRESA UMBERTO
+							CREMASCOLI SRL dal suo nascere, quasi mezzo secolo fa, ad oggi. È infatti nel
+							1970 che il Geom. Umberto Cremascoli fonda l’omonima impresa di cui ancora oggi
+							è titolare, accompagnato dal 2007 dal figlio Ing. Daniele. L'Impresa opera su
+							tutto il territorio Lodigiano sia nel settore pubblico che privato,
+							distinguendosi particolarmente per l'attenzione ai dettagli e la qualità
+							costruttiva. I punti di forza sono, appunto, la qualità del prodotto finale, la
+							presenza in cantiere e l'attenzione al cliente.
 						</p>
 						<div className="row">
 							{facts.map((fact, index) => (

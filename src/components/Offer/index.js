@@ -25,7 +25,7 @@ const Offer = () => {
 						</div>
 					</div>
 
-					<div className="col-md-6 swiper-controls">
+					{/* <div className="col-md-6 swiper-controls">
 						<div
 							ref={prevRef}
 							className="swiper-sliders swipers-button-prev"
@@ -38,7 +38,7 @@ const Offer = () => {
 							onClick={() => swiperRef.current?.slideNext()}>
 							<span class="fa fa-chevron-right"></span>
 						</div>
-					</div>
+					</div> */}
 
 					<div className="col-md-12">
 						<div className="wprt-project arrow-style-2 has-arrows arrow60 arrow-dark">
