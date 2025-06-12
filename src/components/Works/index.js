@@ -80,9 +80,7 @@ const Works = () => {
 												<figcaption>
 													<div>
 														<h2>
-															<Link target="_blank" to={progetto.route}>
-																{progetto.nome}
-															</Link>
+															<Link to={progetto.route}>{progetto.nome}</Link>
 														</h2>
 														<p>{progetto.descrizioneBreve}</p>
 													</div>

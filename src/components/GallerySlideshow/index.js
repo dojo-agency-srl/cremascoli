@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
@@ -8,10 +8,18 @@ import "swiper/css/navigation";
 const GallerySlideshow = ({ gallery }) => {
 	const [selectedImage, setSelectedImage] = useState(gallery[0]);
 
+	useEffect(() => {
+		setSelectedImage(gallery[0]);
+	}, [gallery]);
+
 	return (
 		<div className="wprt-galleries galleries w-570px">
 			<div id="wprt-slider">
-				<img src={selectedImage.image} alt={selectedImage.alt} />
+				<img
+					src={selectedImage.image}
+					alt={selectedImage.alt}
+					style={{ width: "100%" }}
+				/>
 			</div>
 
 			<div id="wprt-carousel">

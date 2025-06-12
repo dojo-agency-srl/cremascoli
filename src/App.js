@@ -24,14 +24,6 @@ const App = () => {
 		};
 	}, [location]);
 
-	const currentRoute =
-		routes.find((route) => route.route === location.pathname) || {};
-
-	const {
-		pageTitle = "Progetti Edili | Le Realizzazioni di Impresa Umberto Cremascoli",
-		pageDescription = "Guarda i nostri progetti edili realizzati a Casalpusterlengo, Lodi e Milano. Costruzioni e ristrutturazioni su misura per ogni esigenza.",
-	} = currentRoute;
-
 	const getRoutes = (routes) =>
 		routes.map((route) => {
 			if ("collapse" in route) {
@@ -48,9 +40,7 @@ const App = () => {
 	return (
 		<>
 			<Routes>
-				<Route
-					path="/"
-					element={<Layout title={pageTitle} description={pageDescription} />}>
+				<Route path="/" element={<Layout />}>
 					<Route path="/" element={<Navigate to="/home" />} />
 
 					{getRoutes(routes)}

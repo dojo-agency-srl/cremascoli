@@ -1,9 +1,53 @@
-import imgWork1 from "images/works/work1.png";
-import imgWork2 from "images/works/work2.png";
-import imgWork3 from "images/works/work3.png";
-import imgWork4 from "images/works/work4.png";
-import imgWork5 from "images/works/work5.png";
-import imgWork6 from "images/works/work6.png";
+import imgWork1 from "images/works/singola-pc/1.png";
+import imgWork2 from "images/works/singola-pc/2.png";
+import imgWork3 from "images/works/singola-pc/3.png";
+import imgWork4 from "images/works/singola-pc/4.png";
+import imgWork5 from "images/works/singola-pc/5.png";
+import imgWork6 from "images/works/singola-pc/6.png";
+import imgWork8 from "images/works/singola-pc/8.png";
+
+import imgWork9 from "images/works/singola-crema/1.png";
+import imgWork10 from "images/works/singola-crema/2.png";
+import imgWork11 from "images/works/singola-crema/3.png";
+import imgWork12 from "images/works/singola-crema/4.png";
+import imgWork13 from "images/works/singola-crema/5.png";
+import imgWork14 from "images/works/singola-crema/6.png";
+import imgWork15 from "images/works/singola-crema/7.png";
+
+import imgWork16 from "images/works/picasso/1.png";
+import imgWork17 from "images/works/picasso/2.png";
+import imgWork18 from "images/works/picasso/3.png";
+import imgWork19 from "images/works/picasso/4.png";
+import imgWork20 from "images/works/picasso/5.png";
+import imgWork21 from "images/works/picasso/6.png";
+import imgWork22 from "images/works/picasso/7.png";
+
+import imgWork23 from "images/works/aldo-moro/1.png";
+import imgWork24 from "images/works/aldo-moro/2.png";
+import imgWork25 from "images/works/aldo-moro/3.png";
+
+import imgWork26 from "images/works/ex-samor/1.png";
+import imgWork27 from "images/works/ex-samor/2.png";
+import imgWork28 from "images/works/ex-samor/3.png";
+import imgWork29 from "images/works/ex-samor/4.png";
+import imgWork30 from "images/works/ex-samor/5.png";
+import imgWork31 from "images/works/ex-samor/6.png";
+import imgWork32 from "images/works/ex-samor/7.png";
+
+import imgWork33 from "images/works/elsa-morante/1.png";
+import imgWork34 from "images/works/elsa-morante/2.png";
+import imgWork35 from "images/works/elsa-morante/3.png";
+import imgWork36 from "images/works/elsa-morante/4.png";
+import imgWork37 from "images/works/elsa-morante/5.png";
+import imgWork38 from "images/works/elsa-morante/6.png";
+import imgWork39 from "images/works/elsa-morante/7.png";
+
+import imgWork40 from "images/works/welchome/1.png";
+import imgWork41 from "images/works/welchome/2.png";
+import imgWork42 from "images/works/welchome/3.png";
+import imgWork43 from "images/works/welchome/4.png";
+import imgWork44 from "images/works/welchome/5.png";
+import imgWork45 from "images/works/welchome/6.png";
 
 import imgGallery1 from "images/gallery/about1.jpg";
 import imgGallery2 from "images/gallery/about2.jpg";
@@ -74,49 +118,49 @@ const servizi = [
 		key: "servizio-1",
 		nome: "Chiavi in Mano",
 		descrizione: "Gestione completa dal progetto alla realizzazione finale",
-		icon: "icon-drawing",
+		icon: "icon-o-light-bulb-1",
 	},
 	{
 		key: "servizio-2",
 		nome: "Ristrutturazioni Edili",
 		descrizione: "Efficientamento energetico e restyling totale dell'immobile",
-		icon: "icon-drawing",
+		icon: "icon-o-helmet",
 	},
 	{
 		key: "servizio-3",
 		nome: "Sviluppo Immobiliare Diretto",
 		descrizione: "Realizziamo immobili moderni partendo da aree edificabili",
-		icon: "icon-drawing",
+		icon: "icon-o-tools-1",
 	},
 	{
 		key: "servizio-4",
 		nome: "Gestione Permessi e Pratiche",
 		descrizione: "Seguiamo ogni iter burocratico e autorizzativo",
-		icon: "icon-drawing",
+		icon: "icon-o-drawing-1",
 	},
 	{
 		key: "servizio-5",
 		nome: "Consulenza Tecnica Integrata",
 		descrizione: "Supporto completo con tecnici e imprese qualificate",
-		icon: "icon-drawing",
+		icon: "icon-o-ruler-2",
 	},
 	{
 		key: "servizio-6",
 		nome: "Innovazione e Sostenibilità",
 		descrizione:
 			"Soluzioni costruttive moderne, efficienti e tecnologicamente avanzate",
-		icon: "icon-drawing",
+		icon: "icon-tap-1",
 	},
 ];
 
 const progetti = [
 	{
 		key: "progetto-1",
-		nome: "Progetto 1",
+		nome: "Villa Singola Piacenza",
 		descrizioneBreve: "Descrizione Test 1",
 		descrizione:
 			"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
-		route: "/progetto/test1",
+		route: "/progetto/villa-singola-piacenza",
 		copertina: imgWork1,
 		cliente: "Cliente 1",
 		architetto: "Architetto 1",
@@ -124,248 +168,277 @@ const progetti = [
 		filter: "old",
 		gallery: [
 			{
-				image: imgGallery1,
-				alt: "Descrizione immagine",
+				image: imgWork1,
+				alt:
+					"Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Piacenza",
 			},
 			{
-				image: imgGallery2,
-				alt: "Descrizione immagine",
+				image: imgWork2,
+				alt:
+					"Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Piacenza",
 			},
 			{
-				image: imgGallery3,
-				alt: "Descrizione immagine",
+				image: imgWork3,
+				alt:
+					"Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Piacenza",
 			},
 			{
-				image: imgGallery4,
-				alt: "Descrizione immagine",
+				image: imgWork4,
+				alt:
+					"Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Piacenza",
 			},
 			{
-				image: imgGallery5,
-				alt: "Descrizione immagine",
+				image: imgWork5,
+				alt:
+					"Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Piacenza",
 			},
 			{
-				image: imgGallery6,
-				alt: "Descrizione immagine",
+				image: imgWork6,
+				alt:
+					"Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Piacenza",
 			},
 			{
-				image: imgGallery1,
-				alt: "Descrizione immagine",
+				image: imgWork8,
+				alt:
+					"Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Piacenza",
 			},
 		],
 	},
 	{
 		key: "progetto-2",
-		nome: "Progetto 2",
+		nome: "Villa Singola Crema",
 		descrizioneBreve: "Descrizione Test 2",
 		descrizione:
 			"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
-		route: "/progetto/test2",
-		copertina: imgWork2,
+		route: "/progetto/villa-singola-crema",
+		copertina: imgWork9,
 		cliente: "Cliente 2",
 		architetto: "Architetto 2",
 		budget: "€ 320.000",
 		filter: "old",
 		gallery: [
 			{
-				image: imgGallery1,
-				alt: "Descrizione immagine",
+				image: imgWork9,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
 			},
 			{
-				image: imgGallery2,
-				alt: "Descrizione immagine",
+				image: imgWork10,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
 			},
 			{
-				image: imgGallery3,
-				alt: "Descrizione immagine",
+				image: imgWork11,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
 			},
 			{
-				image: imgGallery4,
-				alt: "Descrizione immagine",
+				image: imgWork12,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
 			},
 			{
-				image: imgGallery5,
-				alt: "Descrizione immagine",
+				image: imgWork13,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
 			},
 			{
-				image: imgGallery6,
-				alt: "Descrizione immagine",
+				image: imgWork14,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
 			},
 			{
-				image: imgGallery1,
-				alt: "Descrizione immagine",
+				image: imgWork15,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
 			},
 		],
 	},
 	{
 		key: "progetto-3",
-		nome: "Progetto 3",
+		nome: "Via Picasso",
 		descrizioneBreve: "Descrizione Test 3",
 		descrizione:
 			"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
-		route: "/progetto/test3",
-		copertina: imgWork3,
+		route: "/progetto/via-picasso",
+		copertina: imgWork16,
 		cliente: "Cliente 3",
 		architetto: "Architetto 3",
 		budget: "€ 320.000",
 		filter: "old",
 		gallery: [
 			{
-				image: imgGallery1,
-				alt: "Descrizione immagine",
+				image: imgWork16,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
 			},
 			{
-				image: imgGallery2,
-				alt: "Descrizione immagine",
+				image: imgWork17,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
 			},
 			{
-				image: imgGallery3,
-				alt: "Descrizione immagine",
+				image: imgWork18,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
 			},
 			{
-				image: imgGallery4,
-				alt: "Descrizione immagine",
+				image: imgWork19,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
 			},
 			{
-				image: imgGallery5,
-				alt: "Descrizione immagine",
+				image: imgWork20,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
 			},
 			{
-				image: imgGallery6,
-				alt: "Descrizione immagine",
+				image: imgWork21,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
 			},
-
 			{
-				image: imgGallery1,
-				alt: "Descrizione immagine",
+				image: imgWork22,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
 			},
 		],
 	},
 	{
 		key: "progetto-4",
-		nome: "Progetto 4",
+		nome: "Via Aldo Moro",
 		descrizioneBreve: "Descrizione Test 4",
 		descrizione:
 			"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
 		route: "/progetto/test4",
-		copertina: imgWork4,
+		copertina: imgWork23,
 		cliente: "Cliente 4",
 		architetto: "Architetto 4",
 		budget: "€ 320.000",
 		filter: "old",
 		gallery: [
 			{
-				image: imgGallery1,
-				alt: "Descrizione immagine",
+				image: imgWork23,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Aldo Moro",
 			},
 			{
-				image: imgGallery2,
-				alt: "Descrizione immagine",
+				image: imgWork24,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Aldo Moro",
 			},
 			{
-				image: imgGallery3,
-				alt: "Descrizione immagine",
-			},
-			{
-				image: imgGallery4,
-				alt: "Descrizione immagine",
-			},
-			{
-				image: imgGallery5,
-				alt: "Descrizione immagine",
-			},
-			{
-				image: imgGallery6,
-				alt: "Descrizione immagine",
-			},
-			{
-				image: imgGallery1,
-				alt: "Descrizione immagine",
+				image: imgWork25,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Aldo Moro",
 			},
 		],
 	},
 	{
 		key: "progetto-5",
-		nome: "Progetto 5",
+		nome: "Ex-Samor",
 		descrizioneBreve: "Descrizione Test 5",
 		descrizione:
 			"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
-		route: "/progetto/test5",
-		copertina: imgWork5,
+		route: "/progetto/ex-samor",
+		copertina: imgWork26,
 		cliente: "Cliente 5",
 		architetto: "Architetto 5",
 		budget: "€ 320.000",
 		filter: "current",
 		gallery: [
 			{
-				image: imgGallery1,
-				alt: "Descrizione immagine",
+				image: imgWork26,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
 			},
 			{
-				image: imgGallery2,
-				alt: "Descrizione immagine",
+				image: imgWork27,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
 			},
 			{
-				image: imgGallery3,
-				alt: "Descrizione immagine",
+				image: imgWork28,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
 			},
 			{
-				image: imgGallery4,
-				alt: "Descrizione immagine",
+				image: imgWork29,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
 			},
 			{
-				image: imgGallery5,
-				alt: "Descrizione immagine",
+				image: imgWork30,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
 			},
 			{
-				image: imgGallery6,
-				alt: "Descrizione immagine",
+				image: imgWork31,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
 			},
 			{
-				image: imgGallery1,
-				alt: "Descrizione immagine",
+				image: imgWork32,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
 			},
 		],
 	},
 	{
 		key: "progetto-6",
-		nome: "Progetto 6",
+		nome: "Via Elsa Morante",
 		descrizioneBreve: "Descrizione Test 6",
 		descrizione:
 			"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
-		route: "/progetto/test6",
-		copertina: imgWork6,
+		route: "/progetto/via-elsa-morante",
+		copertina: imgWork33,
 		cliente: "Cliente 6",
 		architetto: "Architetto 6",
 		budget: "€ 320.000",
 		filter: "current",
 		gallery: [
 			{
-				image: imgGallery1,
-				alt: "Descrizione immagine",
+				image: imgWork33,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
 			},
 			{
-				image: imgGallery2,
-				alt: "Descrizione immagine",
+				image: imgWork34,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
 			},
 			{
-				image: imgGallery3,
-				alt: "Descrizione immagine",
+				image: imgWork35,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
 			},
 			{
-				image: imgGallery4,
-				alt: "Descrizione immagine",
+				image: imgWork36,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
 			},
 			{
-				image: imgGallery5,
-				alt: "Descrizione immagine",
+				image: imgWork37,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
 			},
 			{
-				image: imgGallery6,
-				alt: "Descrizione immagine",
+				image: imgWork38,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
 			},
 			{
-				image: imgGallery1,
-				alt: "Descrizione immagine",
+				image: imgWork39,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
+			},
+		],
+	},
+	{
+		key: "progetto-7",
+		nome: "WelcHome",
+		descrizioneBreve: "Descrizione Test 6",
+		descrizione:
+			"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
+		route: "/progetto/welchome",
+		copertina: imgWork40,
+		cliente: "Cliente 6",
+		architetto: "Architetto 6",
+		budget: "€ 320.000",
+		filter: "current",
+		gallery: [
+			{
+				image: imgWork40,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione WelcHome",
+			},
+			{
+				image: imgWork41,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione WelcHome",
+			},
+			{
+				image: imgWork42,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione WelcHome",
+			},
+			{
+				image: imgWork43,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione WelcHome",
+			},
+			{
+				image: imgWork44,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione WelcHome",
+			},
+			{
+				image: imgWork45,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione WelcHome",
 			},
 		],
 	},
@@ -401,27 +474,27 @@ const faqs = [
 const gallery = [
 	{
 		image: imgGallery1,
-		alt: "Immagine 1",
+		alt: "Impresa Umberto Cremascoli | Galleria Immagini",
 	},
 	{
 		image: imgGallery2,
-		alt: "Immagine 2",
+		alt: "Impresa Umberto Cremascoli | Galleria Immagini",
 	},
 	{
 		image: imgGallery3,
-		alt: "Immagine 3",
+		alt: "Impresa Umberto Cremascoli | Galleria Immagini",
 	},
 	{
 		image: imgGallery4,
-		alt: "Immagine 4",
+		alt: "Impresa Umberto Cremascoli | Galleria Immagini",
 	},
 	{
 		image: imgGallery5,
-		alt: "Immagine 5",
+		alt: "Impresa Umberto Cremascoli | Galleria Immagini",
 	},
 	{
 		image: imgGallery6,
-		alt: "Immagine 6",
+		alt: "Impresa Umberto Cremascoli | Galleria Immagini",
 	},
 ];
 

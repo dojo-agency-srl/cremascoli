@@ -8,7 +8,7 @@ const ProjectDetail = ({ progetto }) => {
 		<section id="projectdetail-section" className="wprt-section">
 			<div className="container">
 				<div className="row">
-					<div className="col-md-5">
+					<div className="col-md-6">
 						<div
 							className="wprt-spacer"
 							data-desktop="0"
@@ -40,7 +40,7 @@ const ProjectDetail = ({ progetto }) => {
 						</ul>
 					</div>
 
-					<div className="col-md-7">
+					<div className="col-md-6">
 						<GallerySlideshow gallery={progetto.gallery} />
 					</div>
 				</div>

@@ -21,15 +21,17 @@ const WorksFull = () => {
 			<div className="container">
 				<div className="row">
 					<div className="col-md-12">
-						<h2 className="text-center font-size-28 margin-bottom-10">PORTFOLIO GRID</h2>
+						<h2 className="text-center font-size-28 margin-bottom-10">
+							LE NOSTRE REALIZZAZIONI
+						</h2>
 						<div className="wprt-lines style-2 custom-1">
 							<div className="line-1"></div>
 						</div>
 
 						<p className="wprt-subtitle">
-							Cras id justo eget sapien scelerisque lacinia non a eros. In a volutpat magna.
-							Vivamus pretium urna at condimentum porta. Phasellus mollis mauris dolor, a
-							tincidunt mauris fringilla.
+							Scopri i progetti edili completati con cura, qualità e attenzione ai dettagli.
+							Dalle nuove costruzioni alle ristrutturazioni, ogni lavoro racconta la nostra
+							esperienza.
 						</p>
 					</div>
 
