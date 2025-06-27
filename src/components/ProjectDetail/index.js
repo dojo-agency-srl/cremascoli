@@ -8,7 +8,7 @@ const ProjectDetail = ({ progetto }) => {
 		<section id="projectdetail-section" className="wprt-section">
 			<div className="container">
 				<div className="row">
-					<div className="col-md-6">
+					<div className="col-md-7">
 						<div
 							className="wprt-spacer"
 							data-desktop="0"
@@ -29,18 +29,15 @@ const ProjectDetail = ({ progetto }) => {
 
 						<ul className="wprt-list style-2 accent-color margin-top-30 margin-bottom-25">
 							<li>
-								<strong>Cliente:</strong> {progetto.cliente}
+								<strong>Progettista:</strong> {progetto.progettista}
 							</li>
 							<li>
-								<strong>Architetto:</strong> {progetto.architetto}
-							</li>
-							<li>
-								<strong>Budget:</strong> {progetto.budget}
+								<strong>Committente:</strong> {progetto.committente}
 							</li>
 						</ul>
 					</div>
 
-					<div className="col-md-6">
+					<div className="col-md-5">
 						<GallerySlideshow gallery={progetto.gallery} />
 					</div>
 				</div>

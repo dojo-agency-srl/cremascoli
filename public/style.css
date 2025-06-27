@@ -4464,3 +4464,7 @@ body.page #main-content {
 @media (max-width: 1199px) {
 	/* Regole CSS */
 }
+
+*:focus {
+	outline: 3px solid black !important;
+}

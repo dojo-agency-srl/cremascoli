@@ -49,6 +49,14 @@ import imgWork43 from "images/works/welchome/4.png";
 import imgWork44 from "images/works/welchome/5.png";
 import imgWork45 from "images/works/welchome/6.png";
 
+import imgWork46 from "images/works/veneto/1.png";
+import imgWork47 from "images/works/veneto/2.png";
+import imgWork48 from "images/works/veneto/3.png";
+import imgWork49 from "images/works/veneto/4.png";
+import imgWork50 from "images/works/veneto/5.png";
+import imgWork51 from "images/works/veneto/6.png";
+import imgWork52 from "images/works/veneto/7.png";
+
 import imgGallery1 from "images/gallery/about1.jpg";
 import imgGallery2 from "images/gallery/about2.jpg";
 import imgGallery3 from "images/gallery/about3.jpg";
@@ -155,16 +163,296 @@ const servizi = [
 
 const progetti = [
 	{
-		key: "progetto-1",
-		nome: "Villa Singola Piacenza",
-		descrizioneBreve: "Descrizione Test 1",
+		key: "progetto-2",
+		nome: "Villa Singola, Crema",
+		descrizioneBreve: "Ricostruzione moderna, efficiente e funzionale.",
 		descrizione:
-			"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
+			"<p>L’intervento ha previsto la demolizione e ricostruzione con diversa sagoma di una vecchia villa sita alle porte di Crema. Il nuovo fabbricato composto da due unità abitative rispecchia i più alti stardard energetici e funzionali uniti ad un design moderno e lineare come richiesto dal cliente.</p>",
+		route: "/progetto/villa-singola-crema",
+		copertina: imgWork9,
+		progettista: "Geom. Luigi Meazzi",
+		committente: "Privato",
+		filter: "old",
+		gallery: [
+			{
+				image: imgWork9,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
+			},
+			{
+				image: imgWork10,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
+			},
+			{
+				image: imgWork11,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
+			},
+			{
+				image: imgWork12,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
+			},
+			{
+				image: imgWork13,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
+			},
+			{
+				image: imgWork14,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
+			},
+			{
+				image: imgWork15,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
+			},
+		],
+	},
+	{
+		key: "progetto-3",
+		nome: "Edificio Plurifamiliare, Casalpusterlengo",
+		descrizioneBreve:
+			"Demolizione e ampliamento con vetrate, sbalzi e impianti moderni.",
+		descrizione:
+			"<p>L’intervento ha previsto la demolizione e ricostruzione con ampliamento di un vecchio edificio plurifamiliare sito nella parte residenziale di Casalpusterlengo. Oggi il fabbricato si presente con linee moderne e squadrate caratterizzate da ampie superfici vetrate e sbalzi strutturali. Grande importanza è stata data anche alla parte energetica installando tutte le più recenti tecnologie impiantistiche.</p>",
+		route: "/progetto/edificio-plurifamiliare-casalpusterlengo",
+		copertina: imgWork16,
+		progettista: "Geom. Luigi Meazzi",
+		committente: "Privato",
+		filter: "old",
+		gallery: [
+			{
+				image: imgWork16,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
+			},
+			{
+				image: imgWork17,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
+			},
+			{
+				image: imgWork18,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
+			},
+			{
+				image: imgWork19,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
+			},
+			{
+				image: imgWork20,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
+			},
+			{
+				image: imgWork21,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
+			},
+			{
+				image: imgWork22,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
+			},
+		],
+	},
+	{
+		key: "progetto-4",
+		nome: "Quartiere Via Aldo Moro, Casalpusterlengo",
+		descrizioneBreve:
+			"Complesso residenziale in evoluzione con terrazzi, verde e indipendente",
+		descrizione:
+			"<p>Partito nel 2014 e tutt’ora in evoluzione il complesso di Via Aldo Moro a Casalpusterlengo è composto da 9 palazzine e 5 ville singole tutte caratterizzate da spazi verdi esclusi, ampi terrazzi e indipendenza.</p>",
+		route: "/progetto/quartiere-via-aldo-moro-casalpusterlengo",
+		copertina: imgWork23,
+		progettista: "Geom. Luigi Meazzi",
+		committente: "Impresa Umberto Cremascoli srl",
+		filter: "old",
+		gallery: [
+			{
+				image: imgWork23,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Aldo Moro",
+			},
+			{
+				image: imgWork24,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Aldo Moro",
+			},
+			{
+				image: imgWork25,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Aldo Moro",
+			},
+		],
+	},
+	{
+		key: "progetto-5",
+		nome: "Centro Uffici San Zeno, Casalpusterlengo ( Ex samor )",
+		descrizioneBreve:
+			"Da fabbrica dismessa a palazzina uffici moderna, sicura ed efficiente.",
+		descrizione:
+			"<p>L’intervento di rigenerazione urbana ha previsto la ristrutturazione con efficientamento energetico ed adeguamento sismico della palazzina uffici della Ex Samor, azienda dismessa nella zona centrale del paese. Oggi all’interno di una moderna palazzina trovano sede l’Impresa Umberto Cremascoli e altre attività commerciali locali.</p>",
+		route: "/progetto/centro-uffici-san-zeno-ex-samor",
+		copertina: imgWork26,
+		progettista: "Geom. Luigi Meazzi",
+		committente: "Impresa Umberto Cremascoli srl",
+		filter: "old",
+		gallery: [
+			{
+				image: imgWork26,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
+			},
+			{
+				image: imgWork27,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
+			},
+			{
+				image: imgWork28,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
+			},
+			{
+				image: imgWork29,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
+			},
+			{
+				image: imgWork30,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
+			},
+			{
+				image: imgWork31,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
+			},
+			{
+				image: imgWork32,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
+			},
+		],
+	},
+	// {
+	// 	key: "progetto-6",
+	// 	nome: "Via Elsa Morante",
+	// 	descrizioneBreve: "Descrizione Test 6",
+	// 	descrizione:
+	// 		"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
+	// 	route: "/progetto/via-elsa-morante",
+	// 	copertina: imgWork33,
+	// 	cliente: "Cliente 6",
+	// 	architetto: "Architetto 6",
+	// 	budget: "€ 320.000",
+	// 	filter: "old",
+	// 	gallery: [
+	// 		{
+	// 			image: imgWork33,
+	// 			alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
+	// 		},
+	// 		{
+	// 			image: imgWork34,
+	// 			alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
+	// 		},
+	// 		{
+	// 			image: imgWork35,
+	// 			alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
+	// 		},
+	// 		{
+	// 			image: imgWork36,
+	// 			alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
+	// 		},
+	// 		{
+	// 			image: imgWork37,
+	// 			alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
+	// 		},
+	// 		{
+	// 			image: imgWork38,
+	// 			alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
+	// 		},
+	// 		{
+	// 			image: imgWork39,
+	// 			alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
+	// 		},
+	// 	],
+	// },
+	{
+		key: "progetto-7",
+		nome: "Via Raffaello Casalpusterlengo, Residenza Welchome",
+		descrizioneBreve:
+			"Demolizione villa, 10 appartamenti verdi ed efficienti in classe A4",
+		descrizione:
+			"<p>L’intervento di rigenerazione urbana ha previsto la demolizione di una vecchia villa e la ricostruzione di un complesso di 10 appartamenti caratterizzati da ampi spazi verdi al piano terra e da giardini pensili al piano primo. Tutti gli appartamenti sono dotati di impianto fotovoltaico dedicato e di pompa di calore ad alta efficienza raggiungendo la classe A4.</p>",
+		route: "/progetto/via-raffaello-casalpusterlengo-residenza-welchome",
+		copertina: imgWork40,
+		progettista: "Geom. Luigi Meazzi",
+		committente: "Impresa Umberto Cremascoli srl",
+		filter: "old",
+		gallery: [
+			{
+				image: imgWork40,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione WelcHome",
+			},
+			{
+				image: imgWork41,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione WelcHome",
+			},
+			{
+				image: imgWork42,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione WelcHome",
+			},
+			{
+				image: imgWork43,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione WelcHome",
+			},
+			{
+				image: imgWork44,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione WelcHome",
+			},
+			{
+				image: imgWork45,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione WelcHome",
+			},
+		],
+	},
+	{
+		key: "progetto-8",
+		nome: "Viale Veneto, Codogno",
+		descrizioneBreve:
+			"Appartamenti moderni con verde, terrazzi e posizione strategica centrale",
+		descrizione:
+			"<p>VIA VENETO non è solo un complesso immobiliare ma un progetto di rigenerazione urbana consapevole, nato per valorizzare l’esistente senza il consumo di nuovo suolo. Appartamenti moderni, dotati di ampi terrazzi e giardini privati, progettati per chi cerca comfort, luce naturale e una connessione con il verde, senza rinunciare alla comodità: il complesso sorge in una posizione strategica, vicinissimo alla stazione e al centro storico.</p>",
+		route: "/progetto/viale-veneto-codogno",
+		copertina: imgWork46,
+		progettista: "Geom. Luigi Meazzi",
+		committente: "Impresa Umberto Cremascoli srl",
+		filter: "current",
+		gallery: [
+			{
+				image: imgWork46,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Veneto Codogno",
+			},
+			{
+				image: imgWork47,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Veneto Codogno",
+			},
+			{
+				image: imgWork48,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Veneto Codogno",
+			},
+			{
+				image: imgWork49,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Veneto Codogno",
+			},
+			{
+				image: imgWork50,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Veneto Codogno",
+			},
+			{
+				image: imgWork51,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Veneto Codogno",
+			},
+			{
+				image: imgWork52,
+				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Veneto Codogno",
+			},
+		],
+	},
+	{
+		key: "progetto-1",
+		nome: "Villa Singola, Piacenza",
+		descrizioneBreve:
+			"Villa alle porte di Piacenza, intervento edile completo dell’impresa",
+		descrizione:
+			"<p>Importante villa situata alle porte di Piacenza in cui L’impresa si è occupata della parte edile di tutto il cantiere.</p>",
 		route: "/progetto/villa-singola-piacenza",
 		copertina: imgWork1,
-		cliente: "Cliente 1",
-		architetto: "Architetto 1",
-		budget: "€ 320.000",
+		progettista: "----",
+		committente: "Privato",
 		filter: "old",
 		gallery: [
 			{
@@ -201,244 +489,6 @@ const progetti = [
 				image: imgWork8,
 				alt:
 					"Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Piacenza",
-			},
-		],
-	},
-	{
-		key: "progetto-2",
-		nome: "Villa Singola Crema",
-		descrizioneBreve: "Descrizione Test 2",
-		descrizione:
-			"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
-		route: "/progetto/villa-singola-crema",
-		copertina: imgWork9,
-		cliente: "Cliente 2",
-		architetto: "Architetto 2",
-		budget: "€ 320.000",
-		filter: "old",
-		gallery: [
-			{
-				image: imgWork9,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
-			},
-			{
-				image: imgWork10,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
-			},
-			{
-				image: imgWork11,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
-			},
-			{
-				image: imgWork12,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
-			},
-			{
-				image: imgWork13,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
-			},
-			{
-				image: imgWork14,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
-			},
-			{
-				image: imgWork15,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Villa Singola Crema",
-			},
-		],
-	},
-	{
-		key: "progetto-3",
-		nome: "Via Picasso",
-		descrizioneBreve: "Descrizione Test 3",
-		descrizione:
-			"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
-		route: "/progetto/via-picasso",
-		copertina: imgWork16,
-		cliente: "Cliente 3",
-		architetto: "Architetto 3",
-		budget: "€ 320.000",
-		filter: "old",
-		gallery: [
-			{
-				image: imgWork16,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
-			},
-			{
-				image: imgWork17,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
-			},
-			{
-				image: imgWork18,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
-			},
-			{
-				image: imgWork19,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
-			},
-			{
-				image: imgWork20,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
-			},
-			{
-				image: imgWork21,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
-			},
-			{
-				image: imgWork22,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Picasso",
-			},
-		],
-	},
-	{
-		key: "progetto-4",
-		nome: "Via Aldo Moro",
-		descrizioneBreve: "Descrizione Test 4",
-		descrizione:
-			"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
-		route: "/progetto/test4",
-		copertina: imgWork23,
-		cliente: "Cliente 4",
-		architetto: "Architetto 4",
-		budget: "€ 320.000",
-		filter: "old",
-		gallery: [
-			{
-				image: imgWork23,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Aldo Moro",
-			},
-			{
-				image: imgWork24,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Aldo Moro",
-			},
-			{
-				image: imgWork25,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Aldo Moro",
-			},
-		],
-	},
-	{
-		key: "progetto-5",
-		nome: "Ex-Samor",
-		descrizioneBreve: "Descrizione Test 5",
-		descrizione:
-			"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
-		route: "/progetto/ex-samor",
-		copertina: imgWork26,
-		cliente: "Cliente 5",
-		architetto: "Architetto 5",
-		budget: "€ 320.000",
-		filter: "current",
-		gallery: [
-			{
-				image: imgWork26,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
-			},
-			{
-				image: imgWork27,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
-			},
-			{
-				image: imgWork28,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
-			},
-			{
-				image: imgWork29,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
-			},
-			{
-				image: imgWork30,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
-			},
-			{
-				image: imgWork31,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
-			},
-			{
-				image: imgWork32,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Ex Samor",
-			},
-		],
-	},
-	{
-		key: "progetto-6",
-		nome: "Via Elsa Morante",
-		descrizioneBreve: "Descrizione Test 6",
-		descrizione:
-			"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
-		route: "/progetto/via-elsa-morante",
-		copertina: imgWork33,
-		cliente: "Cliente 6",
-		architetto: "Architetto 6",
-		budget: "€ 320.000",
-		filter: "current",
-		gallery: [
-			{
-				image: imgWork33,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
-			},
-			{
-				image: imgWork34,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
-			},
-			{
-				image: imgWork35,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
-			},
-			{
-				image: imgWork36,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
-			},
-			{
-				image: imgWork37,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
-			},
-			{
-				image: imgWork38,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
-			},
-			{
-				image: imgWork39,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione Via Elsa Morante",
-			},
-		],
-	},
-	{
-		key: "progetto-7",
-		nome: "WelcHome",
-		descrizioneBreve: "Descrizione Test 6",
-		descrizione:
-			"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae.</p>",
-		route: "/progetto/welchome",
-		copertina: imgWork40,
-		cliente: "Cliente 6",
-		architetto: "Architetto 6",
-		budget: "€ 320.000",
-		filter: "current",
-		gallery: [
-			{
-				image: imgWork40,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione WelcHome",
-			},
-			{
-				image: imgWork41,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione WelcHome",
-			},
-			{
-				image: imgWork42,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione WelcHome",
-			},
-			{
-				image: imgWork43,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione WelcHome",
-			},
-			{
-				image: imgWork44,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione WelcHome",
-			},
-			{
-				image: imgWork45,
-				alt: "Impresa Umberto Cremascoli | Dettaglio costruzione WelcHome",
 			},
 		],
 	},
