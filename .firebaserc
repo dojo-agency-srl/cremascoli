@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "cremascoli-staging"
-  }
+    "default": "cremascoli-staging",
+    "cremascoli": "cremascoli-c783c"
+  },
+  "targets": {},
+  "etags": {}
 }
