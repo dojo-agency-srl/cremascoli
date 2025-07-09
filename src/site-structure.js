@@ -570,13 +570,6 @@ const offerta = [
 			"Core business dell'impresa fin dalla sua nascita é lo sviluppo di proprie iniziative immobiliari. Dalla scelta della migliore area edificabile alla consegna dell'immobile finito. Impresa Cremascoli segue l’intero processo direttamente per garantire elevati standard di qualità con immobili moderni ed efficienti.",
 		copertina: imgService3,
 	},
-	// {
-	// 	key: "offerta-4",
-	// 	titolo: "Ristrutturazioni",
-	// 	testo:
-	// 		"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada. Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare.",
-	// 	copertina: imgService4,
-	// },
 ];
 
 const facts = [

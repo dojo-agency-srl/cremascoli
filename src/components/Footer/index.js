@@ -109,10 +109,12 @@ const Footer = () => {
 						<div className="bottom-bar-menu">
 							<ul className="bottom-nav">
 								<li>
-									<a href="#/">PRIVACY POLICY</a>
+									<a href="https://www.iubenda.com/privacy-policy/33424232">PRIVACY POLICY</a>
 								</li>
 								<li>
-									<a href="#/">COOKIE POLICY</a>
+									<a href="https://www.iubenda.com/privacy-policy/33424232/cookie-policy">
+										COOKIE POLICY
+									</a>
 								</li>
 							</ul>
 						</div>
