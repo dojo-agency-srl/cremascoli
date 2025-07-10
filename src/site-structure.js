@@ -34,14 +34,6 @@ import imgWork30 from "images/works/ex-samor/5.png";
 import imgWork31 from "images/works/ex-samor/6.png";
 import imgWork32 from "images/works/ex-samor/7.png";
 
-import imgWork33 from "images/works/elsa-morante/1.png";
-import imgWork34 from "images/works/elsa-morante/2.png";
-import imgWork35 from "images/works/elsa-morante/3.png";
-import imgWork36 from "images/works/elsa-morante/4.png";
-import imgWork37 from "images/works/elsa-morante/5.png";
-import imgWork38 from "images/works/elsa-morante/6.png";
-import imgWork39 from "images/works/elsa-morante/7.png";
-
 import imgWork40 from "images/works/welchome/1.png";
 import imgWork41 from "images/works/welchome/2.png";
 import imgWork42 from "images/works/welchome/3.png";
@@ -59,8 +51,6 @@ import imgWork52 from "images/works/veneto/7.png";
 
 import imgGallery1 from "images/gallery/about1.jpg";
 import imgGallery2 from "images/gallery/about2.jpg";
-import imgGallery3 from "images/gallery/about3.jpg";
-import imgGallery4 from "images/gallery/about4.jpg";
 import imgGallery5 from "images/gallery/about5.jpg";
 import imgGallery6 from "images/gallery/about6.jpg";
 
@@ -528,14 +518,6 @@ const gallery = [
 	},
 	{
 		image: imgGallery2,
-		alt: "Impresa Umberto Cremascoli | Galleria Immagini",
-	},
-	{
-		image: imgGallery3,
-		alt: "Impresa Umberto Cremascoli | Galleria Immagini",
-	},
-	{
-		image: imgGallery4,
 		alt: "Impresa Umberto Cremascoli | Galleria Immagini",
 	},
 	{
